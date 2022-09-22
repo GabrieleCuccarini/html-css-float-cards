@@ -53,7 +53,7 @@ header {
 
 .row .column {
     float: left;
-    width: calc(90% / 3);
+    width: calc(100% / 3 - 2rem);
     background-color: black;
     align-items: center;
 }
