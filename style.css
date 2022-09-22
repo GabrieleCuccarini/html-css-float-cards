@@ -46,7 +46,6 @@ header {
 
 .row .column img {
     width: 50%;
-    height: 150px;
     color: white;
     margin: 0 .4rem 0 0;
 }
@@ -55,7 +54,6 @@ header {
     float: left;
     width: calc(100% / 3 - 2rem);
     background-color: black;
-    align-items: center;
 }
 
 .mid {
