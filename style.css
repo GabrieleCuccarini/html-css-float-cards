@@ -24,12 +24,10 @@ header {
 .main-container {
     width: 920px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 .row {
     width: 920px;
-    vertical-align: top;
 }
 
 .row .column img {
@@ -43,10 +41,10 @@ header {
     width: calc(100% / 3);
     background-color: black;
     display: flex;
+    align-items: center;
 }
 
-.column > h4,
-.column > .text {
+.column > * {
     color: white;
 }
 
