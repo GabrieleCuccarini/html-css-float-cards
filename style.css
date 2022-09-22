@@ -10,6 +10,19 @@ p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    float: left;
+    color: rgb(64,128,155);
+    margin-top: .4rem;
+}
+
+h4 {
+    text-decoration: solid;
+    font-family: cursive;
+    font-weight: 900;
+    margin: .4rem 0;
+}
 
 header h1 {
     color: rgb(225, 49, 110);
@@ -22,33 +35,40 @@ header {
 }
 
 .main-container {
-    width: 920px;
+    width: 1150px;
     margin: 0 auto;
 }
 
 .row {
-    width: 920px;
+    width: 1150px;
+    margin: 0 auto;
 }
 
 .row .column img {
     width: 50%;
     height: 150px;
     color: white;
+    margin: 0 .4rem 0 0;
 }
 
 .row .column {
     float: left;
-    width: calc(100% / 3);
+    width: calc(90% / 3);
     background-color: black;
-    display: flex;
     align-items: center;
 }
 
+.mid {
+    margin: 0 2rem;
+}
+
 .column > * {
+    float: left;
     color: white;
 }
 
-.row::after {
+
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
