@@ -7,8 +7,7 @@
 
 
 p {
-    margin: 3rem 0;
-    text-align: center;
+    padding: 2.5rem 0;
 }
 
 a {
@@ -22,16 +21,16 @@ h4 {
     text-decoration: solid;
     font-family: cursive;
     font-weight: 900;
-    margin: 0.4rem 2.1rem .5rem 0;
+    margin: .5rem 0;
 }
 
 header h1 {
     color: rgb(225, 49, 110);
     font-size: xxx-large;
-    margin-top: 2rem;
+    padding-top: 2rem;
 }
 
-header {
+.text-center {
     text-align: center;
 }
 
@@ -45,28 +44,29 @@ header {
     margin: 0 auto;
 }
 
+.testo {
+    float: left;
+    color: white;
+    width: 60%;
+}
+
+
 .row .column img {
+    float: left;
     width: 30%;
     height: 30%;
-    color: white;
-    margin: 0 2rem 0 0;
+    padding-right: .7rem;
 }
 
 .row .column {
     float: left;
-    width: calc(100% / 3 - 2rem);
+    width: calc(100% / 3 - 1rem);
     background-color: black;
 }
 
 .mid {
-    margin: 0 3rem;
+    margin: 0 1rem;
 }
-
-.column > * {
-    float: left;
-    color: white;
-}
-
 
 .clearfix::after {
     content: "";
